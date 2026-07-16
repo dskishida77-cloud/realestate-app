@@ -62,6 +62,49 @@
 }
 
 .property-area {
+  margin: 0 0 4px;
+  font-size: 14px;
+}
+
+.property-layout {
   margin: 0;
   font-size: 14px;
+  color: var(--text);
+}
+
+.property-error {
+  color: #e5484d;
+  font-size: 14px;
+  margin: 0 0 16px;
+}
+
+.new-property-button {
+  font: inherit;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.property-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.property-card-actions button {
+  font: inherit;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-h);
+  cursor: pointer;
+}
+
+.property-card-actions button:hover {
+  border-color: var(--accent-border);
 }

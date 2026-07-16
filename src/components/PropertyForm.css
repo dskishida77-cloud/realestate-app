@@ -1,0 +1,56 @@
+.property-form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 360px;
+  margin: 0 0 24px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.property-form label {
+  font-size: 14px;
+  color: var(--text-h);
+  margin-top: 8px;
+}
+
+.property-form input {
+  font: inherit;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.property-form input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.property-form-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.property-form-actions button {
+  font: inherit;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  cursor: pointer;
+}
+
+.property-form-actions button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.property-form-actions button[type='submit'] {
+  border: none;
+  background: var(--accent);
+  color: #fff;
+}
